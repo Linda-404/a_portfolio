@@ -1,0 +1,48 @@
+header {
+    height: 15vh;
+    border-top: 3px solid $black;
+    border-bottom: 3px solid $black;
+    padding: 0.5rem;
+    padding: calc(min(0.3rem, 0.5rem));
+    display: flex;
+
+    div {
+        width: 50%; 
+        display: flex;
+        justify-content: space-between;
+
+        .container_header_icon {
+            width: 5rem;
+            width: calc(min(1.5rem, 5rem));
+            width: clamp(1.5rem, 4vw, 5rem);
+            // margin-right: 0.5rem;
+            align-self: center;
+
+            .header_icon {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        h1 {
+            align-self: flex-end;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            align-self: center;
+
+            path {
+                fill: $pink;
+            }
+        }
+    }
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

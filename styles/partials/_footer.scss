@@ -1,0 +1,20 @@
+footer {
+    height: 15vh;
+    border-top: 3px solid $black;
+    border-bottom: 3px solid $black;
+    padding: 0.5rem;
+    padding: calc(min(0.3rem, 0.5rem));
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .footer_link {
+        display: flex;
+        align-items: center;
+
+        h4 {
+            margin-left: 0.2rem;
+        }
+    }
+}

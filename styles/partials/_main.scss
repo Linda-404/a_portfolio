@@ -1,0 +1,95 @@
+main {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+
+    h1{
+        align-self: flex-start;
+    }
+  
+}
+
+section {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    div {
+        margin-bottom: 0.5rem;
+        width: calc(min(30rem, 70vw));
+    }
+
+}
+
+.index_content {
+    width: calc(min(80rem, 100vw));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .index_h1 {
+        height: 50vh;
+        height: calc(max(20rem, 50vh));
+        overflow-y: hidden;
+    }
+}
+
+.container_front_img {
+    margin-top: -8rem;
+    margin-top: calc(min(-10rem, -8rem));
+    width: calc(min(15rem, 70vw));
+}
+
+.container_img, .card_design {
+    width: calc(min(25rem, 100vw));
+}
+
+.card_project {
+    width: calc(min(25rem, 100vw));
+
+    .card_project_content {
+        width: 100%;
+        border-bottom: 2px solid $black;
+        display: flex;
+        justify-content: space-between;
+
+        .icon {
+            margin-right: 0.5rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            transition: margin-right ease-in-out 0.3s;
+
+            &:hover {
+                margin-right: 0rem;
+            }
+        }
+    }
+}
+
+// .card_project {
+//     width: calc(min(25rem, 100vw));
+
+//     .card_project_content {
+//         width: 100%;
+//         border-bottom: 2px solid $black;
+//         display: flex;
+//         justify-content: space-between;
+
+//         .icon {
+//             margin-right: 0.5rem;
+//             padding-left: 0.5rem;
+//             padding-right: 0.5rem;
+//             transition: margin-right ease-in-out 0.3s;
+
+//             &:hover {
+//                 margin-right: 0rem;
+//             }
+//         }
+//     }
+// }
