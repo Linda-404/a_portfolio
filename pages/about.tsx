@@ -78,7 +78,8 @@ export default function About() {
                     <div>
                         <h3>hobbies</h3>
                         <ul className={robotoMono.className}>
-                            <li>illustrate</li>
+                            <li>adobe illustrator</li>
+                            <li>adobe photoshop</li>
                             <li>photography</li>
                             <li>writing shortstories</li>
                         </ul>
