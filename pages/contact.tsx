@@ -21,7 +21,7 @@ export default function contact() {
             <div>
                 {/* <Logo aria-label='linda logo' className='logo'/> */}
                 <div className='container_header_icon'>
-                    <FontAwesomeIcon style={{fontSize:"80px"}} icon={faHeart} className='header_icon'></FontAwesomeIcon>
+                    {/* <FontAwesomeIcon style={{fontSize:"80px"}} icon={faHeart} className='header_icon'></FontAwesomeIcon> */}
                 </div>
             </div>
 
